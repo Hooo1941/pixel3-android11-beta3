@@ -4,7 +4,7 @@
     remote="aosp" sync-j="4" />
   <project path="private/msm-google" name="kernel/msm" >
     <linkfile src="build.config.bluecross" dest="build.config" />
-    <linkfile src="build_bluecross.sh" dest="build_bluecross.sh" />
+    <linkfile src="build_bluecross.sh" dest="build_bluecross_nocfi.sh" />
   </project>
   <project path="private/msm-google/techpack/audio" name="kernel/msm-extra" />
   <project path="private/msm-google-modules/wlan/qca-wifi-host-cmn" name="kernel/msm-modules/qca-wfi-host-cmn" />
